@@ -1,10 +1,9 @@
 const AWS = require('aws-sdk');
 
-// Configuração da região (São Paulo no exemplo)
 AWS.config.update({
-    region: 'sa-east-1',
-    accessKeyId: 'AKIASFGXGA3HMNBIJ7TA',
-    secretAccessKey: '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'
+    accessKeyId: "AKIASFGXGA3HF3JTEGOM",
+    secretAccessKey: "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", 
+    region: "sa-east-1"
 });
 
 // Instancia um Client
